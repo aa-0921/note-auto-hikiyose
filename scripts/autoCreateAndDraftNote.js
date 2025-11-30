@@ -185,9 +185,6 @@ export { affiliateConfig, affiliateLinks };
       '感謝の気持ちを忘れずにいることで、',
       'より多くの幸運がもたらされます✨',
       '',
-      'メルカリで商品をご購入いただけます。',
-      'お名前、生年月日、込めたい願いをメッセージにてお伝えください🙏',
-      '',
       '✨　🌟　✨　🌟　✨　🌟　✨　🌟　✨　🌟　✨　🌟　✨　🌟　✨',
       '',
     ].join('\n');
@@ -218,10 +215,10 @@ export { affiliateConfig, affiliateLinks };
       affiliateLinks: [], // アフィリエイトリンクをオフ
       magazinePromotion,
       amazonAssociateText,
-      // Audible・Kindleアフィリエイト設定（affiliateConfigから取得）
+      // Audible・Kindleアフィリエイト設定（オフ）
       affiliateTag: affiliateConfig.affiliateTag,
-      audibleAffiliateEnabled: affiliateConfig.audibleAffiliateEnabled,
-      kindleAffiliateEnabled: affiliateConfig.kindleAffiliateEnabled,
+      audibleAffiliateEnabled: false, // Audibleリンクをオフ
+      kindleAffiliateEnabled: false, // Kindleリンクをオフ
       // おすすめ記事セクション設定（コメントアウト）
       // recommendedArticlesTitle,
       // recommendedArticlesUrls,
