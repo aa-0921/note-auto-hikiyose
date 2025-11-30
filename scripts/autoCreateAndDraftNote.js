@@ -215,16 +215,16 @@ export { affiliateConfig, affiliateLinks };
       tagsInstruction,
       titleEmojis,
       // affiliateLink,
-      affiliateLinks,
+      affiliateLinks: [], // アフィリエイトリンクをオフ
       magazinePromotion,
       amazonAssociateText,
       // Audible・Kindleアフィリエイト設定（affiliateConfigから取得）
       affiliateTag: affiliateConfig.affiliateTag,
       audibleAffiliateEnabled: affiliateConfig.audibleAffiliateEnabled,
       kindleAffiliateEnabled: affiliateConfig.kindleAffiliateEnabled,
-      // おすすめ記事セクション設定
-      recommendedArticlesTitle,
-      recommendedArticlesUrls,
+      // おすすめ記事セクション設定（コメントアウト）
+      // recommendedArticlesTitle,
+      // recommendedArticlesUrls,
     });
     console.log('記事の自動生成と下書き保存が完了しました');
   });
