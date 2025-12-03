@@ -261,7 +261,7 @@ export { affiliateConfig, affiliateLinks };
       titleEmojis,
       // affiliateLink,
       affiliateLinks: [], // アフィリエイトリンクをオフ
-      // magazinePromotion,
+      magazinePromotion: [], // マガジン誘導をオフ
       amazonAssociateText,
       infoText, // 締めの文章（タグの直前に挿入される案内文）
       // Audible・Kindleアフィリエイト設定（オフ）
