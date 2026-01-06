@@ -13,7 +13,7 @@ import { runWithCore } from '@aa-0921/note-auto-core';
 
     await core.runFollowFromUserSearch({
       background: wantsBackground,
-      maxFollows: 15,
+      maxFollows: 30,
       searchWords,
     });
     console.log('フォロー処理が完了しました');
